@@ -1,7 +1,9 @@
 **Text Intent Classifier for a Restaurant Search Chatbot**
 
   The inherent problem of pattern-based heuristics chatbot model is that patterns should be programmed manually, and it is not an easy task, especially if the chatbot has to correctly distinguish hundreds of intents. 
+  
   Imagine that you are building a customer service bot and the bot should respond to a refund request. Users can express it in hundreds of different ways: “I want a refund”, “Refund my money”, “I  need my money back”. At the same time, the botshould respond differently if the same words are used in another context: “Can I request a refund if I don’t like the service?”, “What is your refund policy?”. 
+  
   Humans are not good at writing patterns and rules for natural language understanding, computers are much better at this task. Machine learning lets us train an intent classification algorithm. We just need a training set of a few hundred or thousands of examples, and it will pick up patterns in the data.
 
 Python version :  Python 3.6.1 

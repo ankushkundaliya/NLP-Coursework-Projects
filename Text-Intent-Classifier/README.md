@@ -14,7 +14,7 @@ Packages used :
   3. tkinter 8.6 
   4. json 2.0.9 
 
-**How to run the application? **
+**How to run the application?**
  
 Step 1 : Double click the IntentClassifierApp.py file or run in cmd using command- python IntentClassifierApp.py 
  

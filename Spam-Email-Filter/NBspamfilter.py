@@ -7,8 +7,8 @@ from nltk.stem.lancaster import LancasterStemmer
 
 stop_words = set(stopwords.words("english"))
 stemmer = LancasterStemmer()
-traindir = "/home/mtech20/Documents/Machine Learning/ling-spam/train-mails"
-testdir = "/home/mtech20/Documents/Machine Learning/ling-spam/test-mails"
+traindir = "ling-spam/train-mails"
+testdir = "ling-spam/test-mails"
 
 class NBclassifier:
 

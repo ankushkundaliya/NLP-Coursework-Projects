@@ -10,8 +10,8 @@ import json
 
 stop_words = set(stopwords.words("english"))
 stemmer = LancasterStemmer()
-traindir = "/home/mtech20/Documents/Machine Learning/ling-spam/train-mails"
-testdir = "/home/mtech20/Documents/Machine Learning/ling-spam/test-mails"
+traindir = "ling-spam/train-mails"
+testdir = "ling-spam/test-mails"
 
 class ANNclassifier:
     confusion_matrix = {'TP':0, 'FP':0, 'TN':0, 'FN':0}
